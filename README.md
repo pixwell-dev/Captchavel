@@ -214,7 +214,7 @@ You will get a config file with this array:
 
 return [
     'mode' => env('CAPTCHAVEL_MODE', 'auto'),
-    'enable_local' => env('CAPTCHAVEL_LOCAL', false),
+    'enable' => env('CAPTCHAVEL_ENABLE', true),
     'key' => env('RECAPTCHA_V3_KEY'),
     'secret' => env('RECAPTCHA_V3_SECRET'),
     'threshold' => 0.5,

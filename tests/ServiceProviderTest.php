@@ -136,7 +136,7 @@ class ServiceProviderTest extends TestCase
     public function testRegisterMiddlewareOnLocalTrue()
     {
         $this->app['env'] = 'local';
-        $this->app['config']->set('captchavel.enable_local', true);
+        $this->app['config']->set('captchavel.enable', true);
 
         /** @var CaptchavelServiceProvider $provider */
         $provider = $this->app->make(CaptchavelServiceProvider::class, ['app' => $this->app]);

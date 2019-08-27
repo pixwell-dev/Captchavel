@@ -17,7 +17,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Enable on Local Environment
+    | Captchavel main switch
     |--------------------------------------------------------------------------
     |
     | Having reCAPTCHA on local environment is usually not a good idea unless
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'enable_local' => env('CAPTCHAVEL_LOCAL', false),
+    'enable' => env('CAPTCHAVEL_ENABLE', false),
 
     /*
     |--------------------------------------------------------------------------

@@ -38,7 +38,7 @@ class CheckRecaptchaTest extends TestCase
     {
         $app['env'] = 'local';
 
-        $app->make('config')->set('captchavel.enable_local', true);
+        $app->make('config')->set('captchavel.enable', true);
         $app->make('config')->set('captchavel.secret', 'test-secret');
         $app->make('config')->set('captchavel.key', 'test-key');
 
