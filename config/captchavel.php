@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'enable' => env('CAPTCHAVEL_ENABLE', false),
+    'enable' => env('CAPTCHAVEL_ENABLE', true),
 
     /*
     |--------------------------------------------------------------------------
